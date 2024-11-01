@@ -1,0 +1,98 @@
+.wpcbr-brands .wpcbr-brand {
+    display: inline-block;
+}
+
+.wpcbr-brands .wpcbr-brand a {
+    display: block;
+    margin: 0;
+}
+
+.wpcbr-brands .wpcbr-brand img {
+    display: block;
+    margin: 0;
+    max-width: 200px;
+    height: auto;
+}
+
+/* full */
+.wpcbr-wrap-full .wpcbr-brands .wpcbr-brand, .wpcbr-list-full .wpcbr-brands .wpcbr-brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.wpcbr-wrap-full .wpcbr-brands .wpcbr-brand .wpcbr-brand-image, .wpcbr-list-full .wpcbr-brands .wpcbr-brand .wpcbr-brand-image {
+    margin-right: 10px;
+}
+
+.wpcbr-wrap-full .wpcbr-brands .wpcbr-brand .wpcbr-brand-info, .wpcbr-list-full .wpcbr-brands .wpcbr-brand .wpcbr-brand-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.wpcbr-wrap-full .wpcbr-brands .wpcbr-brand .wpcbr-brand-info .wpcbr-brand-name, .wpcbr-list-full .wpcbr-brands .wpcbr-brand .wpcbr-brand-info .wpcbr-brand-name {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* archive */
+.products .product .wpcbr-brands .wpcbr-brand img {
+    max-width: 80px;
+    height: auto;
+    margin: 0;
+}
+
+/* banner */
+.wpcbr-banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* widget */
+.wpcbr_widget .wpcbr_widget_brands {
+    margin-left: 0;
+    list-style: none;
+}
+
+.wpcbr_widget .wpcbr_widget_brands .wpcbr_widget_brand {
+    clear: both;
+    list-style: none outside;
+    margin: 4px 0;
+    padding: 0;
+}
+
+.wpcbr_widget .wpcbr_widget_brands .wpcbr_widget_brand:before {
+    display: none;
+}
+
+.wpcbr_widget .wpcbr_widget_brands .wpcbr_widget_brand a {
+    display: flex;
+    align-items: center;
+}
+
+.wpcbr_widget .wpcbr_widget_brands .wpcbr_widget_brand .wpcbr_widget_brand_image {
+    width: 48px;
+    flex: 0 0 48px;
+    margin-right: 5px;
+}
+
+.wpcbr_widget .wpcbr_widget_brands .wpcbr_widget_brand .wpcbr_widget_brand_image img {
+    width: 100%;
+    height: auto;
+}
+
+.wpcbr_widget .wpcbr_widget_brands .wpcbr_widget_brand .wpcbr_widget_brand_count {
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.wpcbr_widget .wpcbr_widget_brands .wpcbr_widget_brand .wpcbr_widget_brand_count:before {
+    content: "(";
+}
+
+.wpcbr_widget .wpcbr_widget_brands .wpcbr_widget_brand .wpcbr_widget_brand_count:after {
+    content: ")";
+}
+
+/*# sourceMappingURL=frontend.css.map */
